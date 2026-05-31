@@ -276,7 +276,7 @@ const Layout404 = props => {
             <div className='text-[var(--tl-text)]'>
                 <h2 className='inline-block border-r-2 border-[var(--tl-border)] mr-2 px-3 py-2 align-top text-2xl font-semibold'><i className='mr-2 fas fa-spinner animate-spin' />404</h2>
                 <div className='inline-block text-left h-32 leading-10 items-center text-[var(--tl-muted)]'>
-                    <h2 className='m-0 p-0 text-base'>页面无法加载，即将返回首页</h2>
+                    <h2 className='m-0 p-0 text-base'>The page failed to load and will redirect you to the homepage shortly.</h2>
                 </div>
             </div>
         </div>

@@ -21,7 +21,7 @@ export const Footer = () => {
       </div>
       <p className='mx-auto mt-6 max-w-3xl border-t border-[var(--tl-border)] pt-4 text-center text-xs leading-relaxed text-[var(--tl-muted)]'>
         <span className='font-medium text-[var(--tl-text)]'>ThoughtLite</span>
-        {' 主题 · 设计参考 '}
+        {' Theme · Derived from '}
         <a
           className='text-[var(--tl-accent)] underline-offset-2 hover:underline'
           href={UPSTREAM_REPO}
@@ -29,7 +29,7 @@ export const Footer = () => {
           rel='noopener noreferrer'>
           tuyuritio/astro-theme-thought-lite
         </a>
-        {'（原作者 '}
+        {'(Original author '}
         <a
           className='text-[var(--tl-accent)] underline-offset-2 hover:underline'
           href={UPSTREAM_AUTHOR}
@@ -37,7 +37,7 @@ export const Footer = () => {
           rel='noopener noreferrer'>
           tuyuritio
         </a>
-        ）
+        {')'}
       </p>
     </footer>
   )
